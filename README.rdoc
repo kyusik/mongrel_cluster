@@ -7,6 +7,10 @@ ruby 1.9. A new dependency is an updated mongrel v 1.1.6 which has also been
 made ruby 1.9 compatible. If you are using ruby 1.8, you don't need this
 version.
 
+If you will use this version of mongrel_cluster on ruby 1.9, you will need to
+install v 1.1.6 of mongrel, which you can do in your environment.rb as follows:
+	config.gem "mongrel", :version => '1.1.6', :source => 'http://gems.rubyinstaller.org'
+
 Configure cluster and write configuration file:
   mongrel_rails cluster::configure  
 
