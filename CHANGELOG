@@ -1,3 +1,4 @@
+v1.0.6	Fix mongrel_cluster_ctl case statements to be ruby 1.9 compliant
 
 v1.0.5. Close #15406 (find_pid returning non-false) (Eden Li); close #15616 (wrong Cap 2 detection) (Ryan McGeary).
 

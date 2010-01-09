@@ -4,7 +4,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{mongrel_cluster}
-  s.version = "1.0.5"
+  s.version = "1.0.6"
 
   s.specification_version = 2 if s.respond_to? :specification_version=
 
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.summary = %q{Mongrel plugin that provides commands and Capistrano tasks for managing multiple Mongrel processes.}
 
   s.add_dependency(%q<gem_plugin>, [">= 0.2.3"])
-  s.add_dependency(%q<mongrel>, [">= 1.0.2"])
+  s.add_dependency(%q<mongrel>, [">= 1.1.6"])
 end
 
 
