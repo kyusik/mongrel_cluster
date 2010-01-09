@@ -7,6 +7,6 @@ lib/mongrel_cluster/recipes_1.rb
 lib/mongrel_cluster/recipes_2.rb
 LICENSE
 Manifest
-README
+README.rdoc
 resources/defaults.yaml
 resources/mongrel_cluster

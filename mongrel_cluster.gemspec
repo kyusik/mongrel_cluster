@@ -10,12 +10,12 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bradley Taylor"]
-  s.date = %q{2007-11-13}
+  s.date = %q{2010-01-08}
   s.default_executable = %q{mongrel_cluster_ctl}
   s.description = %q{Mongrel plugin that provides commands and Capistrano tasks for managing multiple Mongrel processes.}
   s.email = %q{}
   s.executables = ["mongrel_cluster_ctl"]
-  s.files = ["bin/mongrel_cluster_ctl", "CHANGELOG", "COPYING", "lib/mongrel_cluster/init.rb", "lib/mongrel_cluster/recipes.rb", "lib/mongrel_cluster/recipes_1.rb", "lib/mongrel_cluster/recipes_2.rb", "LICENSE", "Manifest", "README", "resources/defaults.yaml", "resources/mongrel_cluster", "mongrel_cluster.gemspec"]
+  s.files = ["bin/mongrel_cluster_ctl", "CHANGELOG", "COPYING", "lib/mongrel_cluster/init.rb", "lib/mongrel_cluster/recipes.rb", "lib/mongrel_cluster/recipes_1.rb", "lib/mongrel_cluster/recipes_2.rb", "LICENSE", "Manifest", "README.rdoc", "resources/defaults.yaml", "resources/mongrel_cluster", "mongrel_cluster.gemspec"]
   s.homepage = %q{}
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{mongrel}
