@@ -202,7 +202,7 @@ module Cluster
     def find_pid(port)
       ps_cmd = "ps #{cmd_flags} pid,#{cmd_name}"
       ps_output = `#{ps_cmd}`
-      ps_output.each do |line|
+      ps_output.lines do |line|
         if line =~ /-P #{Regexp.escape(port_pid_file(port))} /
           pid = line.split[0]
           return pid
